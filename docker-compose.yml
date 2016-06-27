@@ -1,0 +1,8 @@
+version: '2'
+services:
+  app:
+    build: .
+    command: /sbin/init
+    privileged: true
+    hostname: app
+    container_name: app
